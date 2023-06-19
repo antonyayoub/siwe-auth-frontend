@@ -7,6 +7,8 @@ import {
   getDefaultConfig,
 } from "connectkit";
 
+import Header from "@/components/Header";
+
 const config = createConfig(
   getDefaultConfig({
     alchemyId: process.env.ALCHEMY_ID,
@@ -19,8 +21,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig config={config}>
       <ConnectKitProvider>
+        <Header />
         <Component {...pageProps} />
-        <ConnectKitButton />
       </ConnectKitProvider>
     </WagmiConfig>
   );
