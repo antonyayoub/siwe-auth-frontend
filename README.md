@@ -5,7 +5,7 @@ Frontend in Next.js consuming backend implementing Authentication with SIWE prot
 
 ## Getting started
 
-Make sure to run [backend] (https://github.com/antonyayoub/siwe-auth-backend) first on port 3001
+Make sure to run [backend](https://github.com/antonyayoub/siwe-auth-backend) first on port 3001
 
 
 ### Installation
